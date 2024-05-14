@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Raleway';
+    font-size: 14px;
+    line-height: 10px;
+}
+header{
+    background-image: url(./images/bg.jpg);
+    width: 100%;
+    height: 525px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 32px;
+}
+header img{
+    max-width: 150px;
+    border-radius: 50%;
+}
+header h1{
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-top:52px;
+    margin-bottom:74px;
+}
+section p{
+    font-size: 16px;
+    line-height: 28px;
+    display: block;
+}
+a .fab{
+   color: white;
+}
+.fab{
+    border: 1px solid white;
+    border-radius: 50%;
+    width:36px;
+    height: 36px;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 24px;
+    margin-inline: 6px;
+}
+main{
+    max-width: 1140px;
+    padding-inline: 40px;
+}
+h3,h4{
+    font-weight: 600;
+}
+h3{
+    text-transform: uppercase;
+    display:block;
+    font-size: 18px;
+    margin-top: 54px;
+    margin-bottom: 30px;
+}
+.title h4{ 
+    display: block;
+    margin-block: 16px;
+    margin-inline: 0px;
+    font-size: 16px;
+} 
+.course .title{
+    color:#509e98;
+    font-size: 10px;
+}
+.notitle{
+    padding: 14px 0;
+}
+.description p{
+     font-size: 14px;
+}
+.course, .description, p{
+    padding-left: 36px;
+}
+.course{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill{
+    display:flex;
+    flex-wrap: wrap;
+}
+.basic{
+    padding-left: 380px;
+}
+.column{
+    padding-top: 20px;
+}
+.column ul{
+    padding-top: 20px;
+}
+.column li{
+    line-height: 25px;
+    font-size: 14px;
+    padding-left: 30px;
+    list-style-type: none;
+}
+.column h4{
+    font-size: 14px;
+    margin-top: -10px;
+}
+.lang h4{
+    font-size: 14px;
+}
+.lang p{
+    font-size: 14px;
+    padding: 8px;
+    margin: 10px;
+}
+.skill .column ul > li:before {
+    content: "►";
+    padding-right: 4px;
+    color:#509e98;
+}
+.school span, .job-title span{
+    color:#889499;
+    text-decoration: underline;
+}
+.school{
+    margin-block: 18px;
+}
+hr{
+    margin-top: 30px;
+}
+header,main,footer {
+    margin: 0 auto;
+}
+article{
+    padding: 0 16px;
+}
+ .skills .column ul, ul.job-description{ 
+    list-style-type: none;
+} 
+.job-description{
+    padding: 30px;
+}
+.job-description li{
+    line-height: 25px;
+    font-size: 16px;
+}
+ul.job-description li:before{
+    content:"✔";
+    padding-right: 10px;
+    color:#509e98;
+}
+footer {
+    padding: 34px 24px;
+    background: #A7B8BF;
+    color:white;
+    text-align: right;
+}
+footer a{
+    text-decoration: none;
+    color:#1C9C94
+}
+footer p{
+    font-size: 16px;
+}
