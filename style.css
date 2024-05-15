@@ -97,8 +97,9 @@ h3{
     display:flex;
     flex-wrap: wrap;
 }
-.basic{
-    padding-left: 380px;
+.skill .column{
+    flex-basis: 50%;
+    max-width: 50%;
 }
 .column{
     padding-top: 20px;
@@ -135,6 +136,7 @@ h3{
 }
 .school{
     margin-block: 18px;
+    font-size: 14px;
 }
 hr{
     margin-top: 30px;
@@ -172,4 +174,35 @@ footer a{
 }
 footer p{
     font-size: 16px;
+}
+@media only screen and (max-width:576px){
+    .skill{
+        display: block;
+    }
+    .skill .column {
+         max-width: 100%;
+         margin-bottom: 20px;
+    }
+    section p{
+        font-size: 12px;
+    }
+    .description p{
+        padding-left: 16px;
+    }
+    .notitle{ 
+        padding-left: 4px; 
+     } 
+     .job-description li{
+        font-size: 14px;
+     }
+    .title h4{
+        font-size: 14px;
+     }
+     footer{
+        text-align: center;
+     }
+     .school{
+        font-size: 14px;
+        line-height: 2px;
+     }
 }
