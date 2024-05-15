@@ -32,7 +32,6 @@ header h1{
 section p{
     font-size: 16px;
     line-height: 28px;
-    display: block;
 }
 a .fab{
    color: white;
@@ -58,7 +57,7 @@ h3,h4{
 h3{
     text-transform: uppercase;
     display:block;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 54px;
     margin-bottom: 30px;
 }
@@ -73,13 +72,22 @@ h3{
     font-size: 10px;
 }
 .notitle{
-    padding: 14px 0;
+    margin-bottom: 30px;
+    padding-left: 20px;
 }
 .description p{
-     font-size: 14px;
+     font-size: 16px;
 }
-.course, .description, p{
-    padding-left: 36px;
+.para p{
+    padding-left: 124px;
+    margin-bottom: 30px;
+}
+.para1 p{
+    padding-left: 55px;
+    margin-bottom: 30px;
+}
+.para2 p{
+    padding-left: 144px;
 }
 .course{
     display: flex;
@@ -99,7 +107,7 @@ h3{
     padding-top: 20px;
 }
 .column li{
-    line-height: 25px;
+    line-height: 30px;
     font-size: 14px;
     padding-left: 30px;
     list-style-type: none;
@@ -113,7 +121,7 @@ h3{
 }
 .lang p{
     font-size: 14px;
-    padding: 8px;
+    padding: 12px;
     margin: 10px;
 }
 .skill .column ul > li:before {
